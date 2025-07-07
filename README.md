@@ -96,7 +96,3 @@ This is a web app that predicts the price of a laptop based on its specification
 PRs and suggestions are welcome! If you find bugs or want to improve the UI/model — feel free to open an issue or fork and raise a pull request.
 
 ---
-
-## 📜 License
-
-[Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
