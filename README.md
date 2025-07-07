@@ -4,8 +4,6 @@
 This is a web app that predicts the price of a laptop based on its specifications — built using **Streamlit** and trained on real-world laptop data.
 
 [![Deployed on Render](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://laptop-price-predictor-0mz6.onrender.com)  
-🔗 **Live App:** [https://laptop-price-predictor-0mz6.onrender.com](https://laptop-price-predictor-0mz6.onrender.com)
-
 ---
 
 ## 🚀 Features
