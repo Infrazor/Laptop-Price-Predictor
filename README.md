@@ -1,9 +1,10 @@
+
 # 💻 Laptop Price Predictor
 
 This is a web app that predicts the price of a laptop based on its specifications — built using **Streamlit** and trained on real-world laptop data.
 
-[![Deploy to Render](https://img.shields.io/badge/Deployed%20on-Render-blue)](https://laptop-price-predictor-0mz6.onrender.com)  
-🔗 **Live App:** [Click here to try it](https://laptop-price-predictor-0mz6.onrender.com)
+[![Deployed on Render](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://laptop-price-predictor-0mz6.onrender.com)  
+🔗 **Live App:** [https://laptop-price-predictor-0mz6.onrender.com](https://laptop-price-predictor-0mz6.onrender.com)
 
 ---
 
@@ -50,3 +51,52 @@ This is a web app that predicts the price of a laptop based on its specification
    ```bash
    git clone https://github.com/Infrazor/Laptop-Price-Predictor.git
    cd Laptop-Price-Predictor
+   ```
+
+2. **(Optional) Create virtual environment:**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # On Windows
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the app:**
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 📁 Folder Structure
+
+```
+├── app.py               # Streamlit frontend
+├── df.pkl               # Cleaned dataset (optional – ignored in .gitignore)
+├── pipe.pkl             # Trained model pipeline
+├── requirements.txt     # All required Python packages
+└── README.md            # You're reading this
+```
+
+---
+
+## 🧠 Future Improvements
+
+- Add visualizations (feature importance, model comparison)
+- Add batch prediction (upload CSV)
+- Improve UI with Streamlit extras
+
+---
+
+## 🤝 Contributing
+
+PRs and suggestions are welcome! If you find bugs or want to improve the UI/model — feel free to open an issue or fork and raise a pull request.
+
+---
+
+## 📜 License
+
+[Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
